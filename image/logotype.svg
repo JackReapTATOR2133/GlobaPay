@@ -1,0 +1,13 @@
+<svg width="88" height="82" viewBox="0 0 88 82" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse cx="44" cy="41" rx="44" ry="41" fill="#F5F5F5"/>
+<path d="M3 36.6446C28.4687 6.46679 59.0312 6.46679 84.5 36.6446V56.0446C59.0312 28.0223 28.4687 28.0223 3 56.0446V36.6446Z" fill="#64B978"/>
+<path d="M3 53.8891C19.3 45.2669 37.6375 43.1114 55.975 66.8225H84.5C58.0125 43.1114 37.6375 45.2669 3 53.8891Z" fill="#64B978"/>
+<path d="M37.6377 0C51.9002 15.0889 70.2377 25.8667 80.4252 38.8V47.4222C62.0877 40.9556 43.7502 23.7111 37.6377 0Z" fill="#64B878"/>
+<rect x="62" y="53" width="1" height="2" fill="url(#pattern0_540_63)"/>
+<defs>
+<pattern id="pattern0_540_63" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_540_63" transform="scale(1 0.5)"/>
+</pattern>
+<image id="image0_540_63" width="1" height="2" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAASSURBVBhXY1C2NPrPxMDAwAAACm8BkDGIdWUAAAAASUVORK5CYII="/>
+</defs>
+</svg>
