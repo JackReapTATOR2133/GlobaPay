@@ -73,4 +73,29 @@ document.addEventListener('DOMContentLoaded', () => {
         buildDots();
         goTo(Math.min(current, maxIndex()));
     });
+
+window.addEventListener('scroll', function () {
+    const header = document.querySelector('.site-header');
+    const hero = document.querySelector('.hero');
+
+    const heroHeight = hero.offsetHeight;
+    const headerPosition = window.scrollY > heroHeight ? 'fixed' : 'static';
+
+    console.log({
+        scrollY: window.scrollY,
+        heroHeight,
+        headerPosition
+    });
+
+    if (window.scrollY > heroHeight) {
+        header.style.position = 'fixed';
+        header.style.top = '0';
+        header.style.width = '100%';
+        header.style.zIndex = '1000';
+        header.style.background = '#030509';
+    } else {
+        header.style.position = 'static';
+        header.style.background = 'transparent';
+    }
+});
 });
